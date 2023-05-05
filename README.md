@@ -4,13 +4,13 @@
 This repository contains the code to reproduce the results of our paper "Expertise Trees Resolve Knowledge Limitations in Collective Decision-Making". If you use this code in your own research, please cite this paper:
 
 ```
-@article{abels2023expertise,
-      title={Expertise Trees Resolve Knowledge Limitations in Collective Decision-Making}, 
+@inproceedings{abels2023expertise,
+  title={Expertise Trees Resolve Knowledge Limitations in Collective Decision-Making},
       author={Axel Abels and Tom Lenaerts and Vito Trianni and Ann Nowé},
-      year={2023},
-      eprint={2305.01063},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+  booktitle={Proceedings of the 40th International Conference on Machine Learning},
+  year={2023},
+  note={Forthcoming, to be presented in July},
+  organization={ICML},
 }
 ```
 ---------------------------------------
