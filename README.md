@@ -1,5 +1,4 @@
-# ExpertiseTrees
-
+[![DOI](https://zenodo.org/badge/636623487.svg)](https://zenodo.org/badge/latestdoi/636623487)
 
 This repository contains the code to reproduce the results of our paper "Expertise Trees Resolve Knowledge Limitations in Collective Decision-Making". If you use this code in your own research, please cite this paper:
 
