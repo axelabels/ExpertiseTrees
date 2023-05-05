@@ -1,0 +1,10 @@
+
+h5py==2.10.0
+matplotlib==3.5.2
+numpy==1.21.6
+opencv_python_headless==4.5.2.52
+pandas==1.5.3
+scikit_learn==1.2.1
+scipy==1.7.3
+sortedcontainers==2.4.0
+tqdm==4.64.0

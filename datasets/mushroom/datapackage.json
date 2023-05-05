@@ -1,0 +1,497 @@
+{
+  "bytes": 5842843,
+  "datahub": {
+    "created": "2018-08-21T22:05:00.548079",
+    "findability": "published",
+    "flowid": "machine-learning/mushroom/3",
+    "modified": "2018-09-06T14:01:10.097236",
+    "owner": "machine-learning",
+    "ownerid": "machine-learning"
+  },
+  "description": "The resources for this dataset can be found at https://www.openml.org/d/24\n\nAuthor: [Jeff Schlimmer]",
+  "hash": "3b857e111fb1eff94759ca658e691343",
+  "id": "machine-learning/mushroom",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ],
+  "name": "mushroom",
+  "resources": [
+    {
+      "bytes": 751225,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/c8e898e453167e76d617eff67d198579.arff",
+      "encoding": "ISO-8859-1",
+      "format": "arff",
+      "name": "mushroom_arff",
+      "path": "archive/mushroom_arff.arff",
+      "pathType": "local",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 740271,
+      "datahub": {
+        "type": "original"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "'"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/a17d4a315d58df28ca3bcd322534b9da.csv",
+      "encoding": "ISO-8859-1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "mushroom_original",
+      "path": "archive/mushroom.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "cap-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-surface",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "bruises%3F",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "odor",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-attachment",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-spacing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-size",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-root",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-number",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "spore-print-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "habitat",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 923,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmphnpr1b6g/machine-learning/mushroom/validation_report/data/57722e8e18e43b6b04f3aac1ff02ae99/validation_report.json",
+      "format": "json",
+      "hash": "57722e8e18e43b6b04f3aac1ff02ae99",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 379652,
+      "datahub": {
+        "derivedFrom": [
+          "mushroom"
+        ],
+        "type": "derived/csv"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmphnpr1b6g/machine-learning/mushroom/mushroom_csv/data/652524e2d0176fbc16354df92fe91fcd/mushroom_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "652524e2d0176fbc16354df92fe91fcd",
+      "mediatype": "text/csv",
+      "name": "mushroom_csv",
+      "path": "data/mushroom_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "'",
+      "rowcount": 8124,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "cap-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-surface",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "bruises%3F",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "odor",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-attachment",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-spacing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-size",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-root",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-number",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "spore-print-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "habitat",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 3966993,
+      "datahub": {
+        "derivedFrom": [
+          "mushroom"
+        ],
+        "type": "derived/json"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "'"
+      },
+      "dpp:streamedFrom": "/tmp/tmphnpr1b6g/machine-learning/mushroom/mushroom_json/data/9f4e9df9db491ae653947580fec75a01/mushroom_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "9f4e9df9db491ae653947580fec75a01",
+      "mediatype": "text/csv",
+      "name": "mushroom_json",
+      "path": "data/mushroom_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "'",
+      "rowcount": 8124,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "cap-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-surface",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "cap-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "bruises%3F",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "odor",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-attachment",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-spacing",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-size",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "gill-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-shape",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-root",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-surface-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-above-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "stalk-color-below-ring",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "veil-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-number",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ring-type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "spore-print-color",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "habitat",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 3779,
+      "dpp:streamedFrom": "/tmp/tmpwo7k18__/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "title": "Mushroom"
+}
